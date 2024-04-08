@@ -1,5 +1,17 @@
 # wrangler
 
+## 3.48.1
+
+### Patch Changes
+
+- [#5374](https://github.com/cloudflare/workers-sdk/pull/5374) [`7999dd2`](https://github.com/cloudflare/workers-sdk/commit/7999dd2bacf53be3780ba70492003d417ffcd5f0) Thanks [@maxwellpeterson](https://github.com/maxwellpeterson)! - fix: Improvements to `--init-from-dash`
+
+  Adds user-specified CPU limit to `wrangler.toml` if one exists. Excludes `usage_model` from `wrangler.toml` in all cases, since this field is deprecated and no longer used.
+
+- [#5553](https://github.com/cloudflare/workers-sdk/pull/5553) [`dcd65dd`](https://github.com/cloudflare/workers-sdk/commit/dcd65dd3da19f619cd9c48d42433ac538a734816) Thanks [@rozenmd](https://github.com/rozenmd)! - fix: refactor d1's time-travel compatibility check
+
+- [#5380](https://github.com/cloudflare/workers-sdk/pull/5380) [`57d5658`](https://github.com/cloudflare/workers-sdk/commit/57d5658bc5560f4ba38fd1b21a1988a4922feea2) Thanks [@GregBrimble](https://github.com/GregBrimble)! - fix: Respect `--no-bundle` when deploying a `_worker.js/` directory in Pages projects
+
 ## 3.48.0
 
 ### Minor Changes
